@@ -40,3 +40,13 @@
     transform: rotate(360deg);
   }
 }
+
+.box{
+  
+  height: 100px;
+  width: 200px;
+  border-style: solid;
+  border-color: black;
+
+
+}

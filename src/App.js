@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
@@ -17,9 +19,13 @@ function App() {
     setTodos([...todos].reverse());
   }
   return (
-    <div className="App">
-      'Create form'
+    <>
+    <div className="box">First Box 
+        <a href="#" className="btn btn-dark btn-lg active" role="button" aria-pressed="true">Primary link</a>
+
     </div>
+    <div className="box">Second Box </div>
+    </>
   );
 }
 
